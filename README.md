@@ -3,7 +3,7 @@
 Welcome to **Gadget Heaven**, your ultimate destination for the best gadgets and accessories. This website allows users to browse, add products to their cart or wishlist, and sort them based on price.  
 
 ## 🔗 Live Website Link  
-[Click Here to Visit the Live Website](YOUR_DEPLOYMENT_LINK_HERE)  
+[Click Here to Visit the Live Website](https://relaxed-otter-a05968.netlify.app/)  
 
 ## 📄 Requirement Document  
 [View the Requirement Document](https://github.com/programming-hero-web-course-4/b10a8-gadget-heaven-Mahadi-Hasan402180 )  
