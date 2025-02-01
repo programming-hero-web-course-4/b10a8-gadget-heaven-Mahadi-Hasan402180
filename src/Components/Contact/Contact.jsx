@@ -1,6 +1,11 @@
+import { Helmet } from 'react-helmet';
 const Contact = () => {
     return (
+        
         <div className="max-w-4xl mx-auto p-8 mt-10 bg-fuchsia-100 shadow-lg rounded-lg">
+            <Helmet>
+                <title>Contact</title>
+            </Helmet>
             <h2 className="text-3xl font-bold text-center text-purple-600">Contact Us</h2>
             <p className="text-center text-gray-700 mt-2">We had love to hear from you! Reach out with any questions or feedback.</p>
 

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Cart from "../Cart/Cart";
 import Wish from "../Wish/Wish";
+import { Helmet } from 'react-helmet';
 
 
 const Dashboard = () => {
@@ -18,6 +19,9 @@ const Dashboard = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Dashboard</title>
+            </Helmet>
             {/* Header Section */}
             <div className="hero bg-[#9538E2] p-8 h-80 text-white mt-2 rounded-2xl">
                 <div className="hero-content text-center">

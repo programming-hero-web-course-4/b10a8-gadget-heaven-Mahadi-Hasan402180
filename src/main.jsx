@@ -1,11 +1,9 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import './index.css';
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HelmetProvider } from 'react-helmet-async'; // Import HelmetProvider
 import Root from './Components/Root/Root';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import Home from './Components/Home/Home';
@@ -17,38 +15,39 @@ import Contact from './Components/Contact/Contact';
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<Root></Root>,
-    errorElement:<ErrorPage></ErrorPage>,
+    element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
         element: <Home></Home>
       },
       {
-        path:'/dashboard',
-        element:<Dashboard></Dashboard>
+        path: '/dashboard',
+        element: <Dashboard></Dashboard>
       },
       {
-        path:'/statistics',
-        element:<Statistics></Statistics>
+        path: '/statistics',
+        element: <Statistics></Statistics>
       },
       {
-        path:'products/:product_id',
-        element:<GadgetDetails></GadgetDetails>,
-        loader:()=>fetch("/productsData.json")
+        path: 'products/:product_id',
+        element: <GadgetDetails></GadgetDetails>,
+        loader: () => fetch("/productsData.json")
       },
       {
-        path:'/contact',
-        element:<Contact></Contact>
-      }
+        path: '/contact',
+        element: <Contact></Contact>
+      },
+     
     ],
   },
 ]);
 
-
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <RouterProvider router={router} />
-  </StrictMode>,
-)
+    <HelmetProvider>  
+      <RouterProvider router={router} />
+    </HelmetProvider>
+  </StrictMode>
+);
