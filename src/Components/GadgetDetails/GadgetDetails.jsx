@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { useState } from "react";
+import { addFavorite } from "../utils/utils";
 
 const GadgetDetails = () => {
     const { product_id } = useParams();
@@ -9,6 +10,11 @@ const GadgetDetails = () => {
     const product = data.find((product) => product.product_id === id);
 
     const { product_image, product_title, price, description, specification, availability, rating } = product;
+
+
+    const handleFavorite = (product) => {
+        addFavorite(product)
+    }
 
     const [wishlistAdded, setWishlistAdded] = useState(false);
 
@@ -35,10 +41,10 @@ const GadgetDetails = () => {
 
             {/* Product Details Section */}
             <div className="max-w-4xl mx-auto mt-10 p-6 absolute top-[35%] right-56 bg-fuchsia-100 shadow-lg rounded-lg flex gap-6">
-               
+
                 <img src={product_image} alt={product_title} className="w-64 h-64 rounded-lg object-cover" />
 
-               
+
                 <div className="flex flex-col justify-between">
                     <div>
                         <h2 className="text-3xl font-bold">{product_title}</h2>
@@ -46,7 +52,7 @@ const GadgetDetails = () => {
                         <p className="text-green-500 font-semibold mt-1">{availability}</p>
                         <p className="mt-3 text-gray-600">{description}</p>
 
-                        
+
                         <div className="mt-4">
                             <h3 className="font-semibold text-lg">Specification:</h3>
                             <ul className="list-disc ml-5 mt-2 text-gray-600">
@@ -56,7 +62,7 @@ const GadgetDetails = () => {
                             </ul>
                         </div>
 
-                      
+
                         <h2 className="font-bold">Rating <span className="text-yellow-500 text-xl">⭐</span></h2>
                         <div className="flex items-center mt-4">
                             <div className="rating rating-xs">
@@ -70,14 +76,21 @@ const GadgetDetails = () => {
                         </div>
                     </div>
 
-                   
+
                     <div className="flex items-center gap-4 mt-5">
                         <button
-                            onClick={handleAddToCart}
+                            onClick={() => {
+                                handleAddToCart();
+                                handleFavorite(product);
+                            }}
+                            disabled={wishlistAdded}
+
                             className="bg-purple-500 text-white px-5 py-2 rounded-lg flex items-center gap-2"
                         >
-                            🛒 ADD TO CARD
+                            🛒 ADD TO CART
+                            
                         </button>
+
                         <button
                             onClick={handleAddToWishlist}
                             disabled={wishlistAdded}
