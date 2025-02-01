@@ -1,0 +1,238 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co.com/5hzFbzMY/c1.jpg",
+      "category": "Computers",
+      "price": 999,
+      "description": "A premium laptop with Intel Core i7, 16GB RAM, and a 512GB SSD.",
+      "specification": [
+        "Intel Core i7",
+        "16GB RAM",
+        "512GB SSD",
+        "13.3-inch display"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 2,
+      "product_title": "MacBook Pro",
+      "product_image": "https://i.ibb.co.com/TBqQX2ds/c2.jpg",
+      "category": "Computers",
+      "price": 1299,
+      "description": "Apple's premium laptop with M1 chip, 16GB RAM, and 512GB storage.",
+      "specification": [
+        "Apple M1 Chip",
+        "16GB RAM",
+        "512GB SSD",
+        "13-inch Retina display"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 3,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co.com/NnGm7y8G/c3.png",
+      "category": "Computers",
+      "price": 1099,
+      "description": "A versatile 2-in-1 laptop with Intel Core i7, 8GB RAM, and 256GB SSD.",
+      "specification": [
+        "Intel Core i7",
+        "8GB RAM",
+        "256GB SSD",
+        "13.3-inch 4K touch display"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 4,
+      "product_title": "Lenovo ThinkPad X1",
+      "product_image": "https://i.ibb.co.com/Zj7kcTP/c44.png",
+      "category": "Computers",
+      "price": 1150,
+      "description": "A business-focused laptop with Intel Core i5, 16GB RAM, and 512GB SSD.",
+      "specification": [
+        "Intel Core i5",
+        "16GB RAM",
+        "512GB SSD",
+        "14-inch display"
+      ],
+      "availability": false,
+      "rating": 4.2
+    },
+    {
+      "product_id": 5,
+      "product_title": "Asus ZenBook 14",
+      "product_image": "https://i.ibb.co.com/CpxyLn18/c5.png",
+      "category": "Computers",
+      "price": 999,
+      "description": "An ultra-portable laptop with Intel Core i7, 8GB RAM, and a 512GB SSD.",
+      "specification": [
+        "Intel Core i7",
+        "8GB RAM",
+        "512GB SSD",
+        "14-inch Full HD display"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 6,
+      "product_title": "Acer Swift 3",
+      "product_image": "https://i.ibb.co.com/84nfWX3k/c6.png",
+      "category": "Computers",
+      "price": 950,
+      "description": "Affordable and powerful laptop with Intel Core i5, 8GB RAM, and 512GB SSD.",
+      "specification": [
+        "Intel Core i5",
+        "8GB RAM",
+        "512GB SSD",
+        "14-inch Full HD display"
+      ],
+      "availability": true,
+      "rating": 4.1
+    },
+    {
+      "product_id": 7,
+      "product_title": "iPhone 14",
+      "product_image": "https://i.ibb.co.com/0pdnX1MW/p1.jpg",
+      "category": "Phones",
+      "price": 899,
+      "description": "Apple's latest smartphone with A15 Bionic chip, 5G, and 128GB storage.",
+      "specification": [
+        "A15 Bionic chip",
+        "128GB storage",
+        "6.1-inch OLED display",
+        "5G support"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 8,
+      "product_title": "Samsung Galaxy S22",
+      "product_image": "https://i.ibb.co.com/TqdtfDdL/p2.jpg",
+      "category": "Phones",
+      "price": 799,
+      "description": "Samsung's flagship phone with Exynos 2200, 8GB RAM, and 128GB storage.",
+      "specification": [
+        "Exynos 2200",
+        "8GB RAM",
+        "128GB storage",
+        "6.1-inch Dynamic AMOLED display"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 9,
+      "product_title": "Google Pixel 7",
+      "product_image": "https://i.ibb.co.com/Y7tTF29X/p3.jpg",
+      "category": "Phones",
+      "price": 850,
+      "description": "Google's flagship phone with Tensor chip, 8GB RAM, and 128GB storage.",
+      "specification": [
+        "Google Tensor chip",
+        "8GB RAM",
+        "128GB storage",
+        "6.3-inch OLED display"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 10,
+      "product_title": "Apple Watch Series 8",
+      "product_image": "https://i.ibb.co.com/dwTgbBZD/w1.jpg",
+      "category": "Smart Watches",
+      "price": 499,
+      "description": "A premium smartwatch with advanced health tracking and 18-hour battery life.",
+      "specification": [
+        "Advanced health tracking",
+        "18-hour battery life",
+        "GPS + Cellular",
+        "Always-On Retina display"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 11,
+      "product_title": "Samsung Galaxy Watch 5",
+      "product_image": "https://i.ibb.co.com/934Qx0Q1/w2.jpg",
+      "category": "Smart Watches",
+      "price": 399,
+      "description": "Samsung's smart watch with sleep tracking, ECG, and a 40mm AMOLED display.",
+      "specification": [
+        "Sleep tracking",
+        "ECG",
+        "40mm AMOLED display",
+        "GPS"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 12,
+      "product_title": "Logitech MX Master 3",
+      "product_image": "https://i.ibb.co.com/SDMKPtBK/a1.jpg",
+      "category": "Accessories",
+      "price": 120,
+      "description": "High-performance wireless mouse with ergonomic design and long battery life.",
+      "specification": [
+        "Ergonomic design",
+        "Long battery life",
+        "Precision scroll wheel"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 13,
+      "product_title": "Razer BlackShark V2",
+      "product_image": "https://i.ibb.co.com/KjpqW7mV/a2.jpg",
+      "category": "Accessories",
+      "price": 99,
+      "description": "Gaming headset with surround sound, 50mm drivers, and noise isolation.",
+      "specification": [
+        "Surround sound",
+        "50mm drivers",
+        "Noise isolation"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 14,
+      "product_title": "Anker PowerCore 20100",
+      "product_image": "https://i.ibb.co.com/dzc5SfH/a3.jpg",
+      "category": "Accessories",
+      "price": 65,
+      "description": "Portable power bank with 20100mAh capacity for charging devices on-the-go.",
+      "specification": [
+        "20100mAh capacity",
+        "Fast charging"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 15,
+      "product_title": "Sony WH-1000XM4",
+      "product_image": "https://i.ibb.co.com/JwzPd71R/a4.jpg",
+      "category": "Accessories",
+      "price": 350,
+      "description": "Noise-canceling headphones with 30-hour battery life and superior sound quality.",
+      "specification": [
+        "Noise cancellation",
+        "30-hour battery life",
+        "Touch controls"
+      ],
+      "availability": true,
+      "rating": 4.9
+    }
+  ]
+  
